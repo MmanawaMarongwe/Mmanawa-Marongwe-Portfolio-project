@@ -108,13 +108,13 @@ p {
 @media(max-width: 568px) {
 
   h1,h2,h3{
-     font-size: 25px;
+     font-size: 20px;
   }
   p{
     font-size: small;
   }
   #app-heading{
-    font-size: 18px;
+    font-size: 15px;
   }
   .app-link {
     border-radius: 4px;
@@ -126,6 +126,20 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
   }
+  .navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+  #contact, .email-link{
+    font-size: 15px;
+}
+#project-pictures{
+  margin: 10px auto;
+  padding: 5px 5px;
+}
   
 }
 
