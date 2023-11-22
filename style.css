@@ -104,3 +104,29 @@ p {
 #app-heading{
   text-align: left;
 }
+
+@media(max-width: 568px) {
+
+  h1,h2,h3{
+     font-size: 25px;
+  }
+  p{
+    font-size: small;
+  }
+  #app-heading{
+    font-size: 18px;
+  }
+  .app-link {
+    border-radius: 4px;
+    padding: 10px 8px;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+}
+
+  
